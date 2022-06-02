@@ -7,3 +7,4 @@ repos:
         description: Checks for common misspellings in text files.
         entry: codespell --write
         language: python
+        files : '.rst'
