@@ -1,0 +1,10 @@
+repos:
+  - repo : https://github.com/codespell-project/codespell 
+    rev : v2.1.0 
+    hooks:
+    -   id: codespell
+        name: codespell
+        description: Checks for common misspellings in text files.
+        entry: codespell --write
+        language: python
+        types: [text]
