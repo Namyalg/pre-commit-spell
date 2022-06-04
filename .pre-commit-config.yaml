@@ -5,6 +5,6 @@ repos:
     -   id: codespell
         name: codespell
         description: Checks for common misspellings in text files.
-        entry: codespell --write
+        entry: codespell -w
         language: python
         files : '.rst'
